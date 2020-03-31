@@ -38,7 +38,7 @@ In the GitHub era, open projects are able to get a lot “done” without outsid
 - But: we do not want to impose bureaucracy on projects because that will slow them down.
 - Minimal viable governance also means that the TOC does not step in at a tactical level to overrule project leads’ decisions.
 - There are some basics like [Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md) - see Draft Statement below. Including dealing with problematic leads & maintainers.
-- There is a formal & regulated system of [Graduation Criteria](https://www.cncf.io/projects/graduation-criteria/) for CNCF Projects
+- There is a formal & regulated system of [Graduation Criteria](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc) for CNCF Projects
 - The TOC/CNCF want the ability to intervene if things go really wrong - i.e., project leads are stuck and cannot fix things.
 - Provide a template for new projects, a set of best practices to help jump-start the task of setting up a new project.
 
@@ -77,6 +77,8 @@ _Principles:_
 Via the “no kingmakers” principle and “what is a project”, the CNCF may support several projects which show how a ‘stack’ is a solution to certain use cases. For example, some stacks might use a container orchestrator. Other stacks might show how to integrate monitoring with other “observability” technologies, for cloud native apps regardless of their orchestration model.
 
 This means that the CNCF is not promoting a single, monolithic stack of technologies. 
+
+CNCF projects may have dependencies on other open source projects that comply with the [CNCF IP policy]( https://github.com/cncf/foundation/blob/master/whitelist-policy.md), which may be outside the CNCF. Widely-used dependencies are preferred; pluggable dependencies fit well with our principles but are not essential.  _Examples: Kubernetes' dependency on etcd, which was not a CNCF project at the time Kubernetes was brought into the CNCF; CNI, which enables pluggable networking dependencies._ 
 
 The CNCF is a badge of quality and velocity. CNCF projects should be on a path to being tools that users can trust, broadly work together, and that meet other cloud native criteria. But the CNCF badge does not mean “this is the standard tool”.
 
