@@ -1,10 +1,10 @@
 # Keycloak CNCF Sandbox Project Submission Proposal
 
-This is a resubmission of Keycloak. Initially proposed in the in 2018 has been impacted by Sandbox process changes and overal lack of bandwidth in TOC which resulted in halt of intake of new projects. Now that new process settled and new TOC elections concluded we would like to approach inclusion of Keycloak as CNCF Sandbox project again. 
+This is a resubmission of Keycloa as Sandbox project. Initially proposed in 2018 has been impacted by Sandbox process changes and overal lack of bandwidth in TOC. This resulted in halt of intake of new projects. Now that new process settled and new TOC elections concluded we would like to approach inclusion of Keycloak as CNCF Sandbox project again. 
 
 
-Authors:
-Bolesław Dawidowicz https://twitter.com/bdawidowicz
+Authors:  
+Bolesław Dawidowicz https://twitter.com/bdawidowicz  
 Stian Thorgersen https://github.com/stianst
 
 # Background
@@ -68,27 +68,28 @@ Keycloak supports traditional high availability by providing clustering. In addi
 
 ## Current Status 
 
-Keycloak is a mature and widely adopted project. Currently on 9.x release since April. Although follows quick every few months major release while keeping backwards compatibility. 
+Keycloak is a mature and widely adopted project. Currently on 9.x release since February. Although follows quick every few months major release while keeping backwards compatibility. 
 
 Github stats (March 2020):
 * Forks: 2.6k
 * Controbutors: 377
 * Commits: 11.5k
-* Website visits
-* Downloads
-* 
+* Website visits: >60k unique users per month
+* Developer mailing list: ~100 posts/month
+* User mailing list: ~200 posts/month
 
-Governance
+### Governance and Community
 * Governance: https://github.com/keycloak/keycloak/blob/master/GOVERNANCE.md
 * Contributing Guide: https://github.com/keycloak/keycloak/blob/master/CONTRIBUTING.md
 * Maintainers: https://github.com/keycloak/keycloak/blob/master/MAINTAINERS.md
 * Adopters: https://github.com/keycloak/keycloak/blob/master/ADOPTERS.md
 * License: ASF 2.0 https://github.com/keycloak/keycloak/blob/master/LICENSE.txt
+* Community channels: https://www.keycloak.org/community
 
 ## Future Plans / Roadmap
 Key high level items
-* W3C WebAuthN - initial support already in Keycloak 9)
-* Admin UI Redesign and reimplementation of Admin UIs in ReactJS. https://groups.google.com/d/msgid/keycloak-dev/188f4f10-6135-4220-a399-96f0a6e94ff9%40googlegroups.com - 
+* W3C WebAuthN - initial support already in Keycloak 9
+* Admin UI Redesign and reimplementation of Admin UIs in ReactJS. https://groups.google.com/d/msgid/keycloak-dev/188f4f10-6135-4220-a399-96f0a6e94ff9%40googlegroups.com
 * Kubernetes Operator - initial release on OperatorHub https://operatorhub.io/operator/keycloak-operator 
 * Quarkus - https://quarkus.io - based distribution allowing natively compiled binaries and startup/footprint comparable to golang. 
 * New improved storage layer - drop requirement for database. 
@@ -114,7 +115,7 @@ It is an opinionated solution trying to avoid code and function creep. Aiming to
 
 ## Value-add to the CNCF ecosystem
 
-Security is a cornerstone of Cloud Native environments and the OAuth2 family of standards (OpenID Connect / UMA) has become a default choice when implementing modern applications, services, and APIs. Keycloak fits perfectly into the cloud landscape as a lightweight and modern solution. Embracing developers with an ease of use and and the rapid velocity of integrating Keycloak into applications, Keycloak also embraces new development models. 
+Security is a cornerstone of Cloud Native environments and the OAuth2 family of standards like OpenID Connect has become a default choice when implementing modern applications, services, and APIs. Keycloak fits perfectly into the cloud landscape as a lightweight and modern solution. Embracing developers with an ease of use and and the rapid velocity of integrating Keycloak into applications, Keycloak also embraces new development models. 
 
 Rapid project growth and adoption has proven it has already become a technology of choice for applications developed in Cloud Native ecosystem. 
 
@@ -166,7 +167,7 @@ https://docs.google.com/document/d/14IIGliP3BWjdS-0wfOk3l_1AU8kyoSiLUzpPImsz4R0/
 Keycloak project is able to meet all requirements. Already has proper governance model, is ready to adopt CNCF Code of Conduct and perform required trademark transfer. Will adhere to the CNCF IP Policy
 
 ## Has the TOC been approached for sponsorship
-Keycloak has approached Sandbox submission in the past although this has been impacted with process changes. At the point Keycloak submitted CNCF TOC decided to halt intake of new projects and redesign the whole process. 
+Keycloak has approached Sandbox submission in the past although this has been impacted with process changes. At the point Keycloak submitted CNCF TOC decided to halt intake of new projects and redesign the whole process. This essentially derailed previous submission
 
 Previous PR: https://github.com/cncf/toc/pull/176
 
