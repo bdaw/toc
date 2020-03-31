@@ -14,6 +14,7 @@ Link to Presentation: (Oct 2018 TOC presentation - slide 26) https://docs.google
 
 Link to GitHub project: https://github.com/keycloak
 
+Getting Started / Trying out: https://www.keycloak.org/getting-started
 
 CNCF SIG Security assesment request: https://github.com/cncf/sig-security/issues/372
 
