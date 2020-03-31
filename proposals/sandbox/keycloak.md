@@ -71,8 +71,9 @@ Keycloak supports traditional high availability by providing clustering. In addi
 
 Keycloak is a mature and widely adopted project. Currently on 9.x release since February. Although follows quick every few months major release while keeping backwards compatibility. 
 
-Github stats (March 2020):
+Github and community stats (March 2020):
 * Forks: 2.6k
+* Stars: 5.6k 
 * Controbutors: 377
 * Commits: 11.5k
 * Website visits: >60k unique users per month
